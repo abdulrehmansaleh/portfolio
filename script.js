@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const learnMoreBtn = document.getElementById("learnMoreBtn");
   const contactBtn = document.getElementById("contactBtn");
 
+  
   learnMoreBtn.addEventListener("click", () => {
     document.getElementById("about").scrollIntoView({ behavior: "smooth" });
   });
